@@ -8,7 +8,7 @@ function ThreeModel() {
   return (
     <Canvas
     style={{ width: '100%', height: '100vh' }} // Opcional, para controlar el tamaño del contenedor
-    camera={{ position: [0, 0, 5] }}
+    camera={{ position: [3, 5, 15] }}
     gl={{ antialias: true }} // Otras configuraciones de WebGL
     shadowMap
     size={[window.innerWidth, window.innerHeight]} // Tamaño del canvas
