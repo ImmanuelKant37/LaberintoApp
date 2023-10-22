@@ -9,4 +9,19 @@
   }
   
   /* Estilos adicionales para el contenido de la aplicación si es necesario */
-  
+  .app-container {
+  position: relative;
+}
+
+.overlay-button {
+  z-index: 999;
+  position: absolute;
+  top: 10px; /* Ajusta la posición superior según sea necesario */
+  right: 10px; /* Ajusta la posición derecha según sea necesario */
+  background: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
